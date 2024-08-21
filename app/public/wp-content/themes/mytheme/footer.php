@@ -1,12 +1,15 @@
 <?php
 /**
  * Footer template
- * @package MyTheme
+ * @package My Theme
  */
 
  ?>
 
 <footer>Footer</footer>
+
+</div>
+  </div>
 
 <?php wp_footer(); ?>
  </body>

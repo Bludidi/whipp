@@ -2,7 +2,7 @@
 /**
  * Main template file.
  * 
- * @package MyTheme 
+ * @package My Theme 
  */
 get_header();
  ?>
