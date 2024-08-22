@@ -7,7 +7,10 @@
 get_header();
  ?>
 
-  <div class="content">Content</div>
+  <div class="content">
+    Buttons
+    <?php  get_template_part('/template-parts/buttons/buttons'); ?>
+  </div>
 
   <?php
   
