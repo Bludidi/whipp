@@ -5,6 +5,12 @@
  * @package My Theme
  */
 
+ if (!defined('MYTHEME_DIR_PATH')) {
+  define('MYTHEME_DIR_PATH', untrailingslashit(get_template_directory()));
+ }
+
+
+ include_once MYTHEME_DIR_PATH.'/inc/helpers/autoloaders.php';
  function mytheme_enqueue_scripts() {
 
   // Register styles.
